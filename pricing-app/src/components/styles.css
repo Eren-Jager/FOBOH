@@ -1,0 +1,34 @@
+.MuiFormControlLabel-label {
+  font-size: 0.9rem !important;
+}
+
+.ProductFilter {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+.FilterSection {
+  display: flex;
+}
+
+.SelectionSection {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.PriceAdjustmentSection {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.AmountInput > .MuiInputBase-input::-webkit-inner-spin-button,
+.no-spin::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+.AmountInput > .MuiInputBase-input {
+  -moz-appearance: textfield !important;
+}
